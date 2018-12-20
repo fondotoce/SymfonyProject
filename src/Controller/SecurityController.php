@@ -1,16 +1,12 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: дом
- * Date: 16.12.2018
- * Time: 21:39
- */
+
 
 namespace App\Controller;
 
 
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\Security\Http\Authentication\AuthenticationUtils;
+use Symfony\Component\Routing\Annotation\Route;
 
 class SecurityController
 {
